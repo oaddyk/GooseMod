@@ -28,11 +28,11 @@ export default async () => {
             marginTop: '33px'
           },
 
-          color: ButtonClasses['colorPrimary'],
-          size: ButtonClasses['sizeSmall'],
+          color: ButtonClasses["colorPrimary"],
+          size: ButtonClasses["sizeSmall"],
 
           onClick: this.props.buttonOpenLink
-        }, '#terms.openLink#'),
+        }, "#terms.openLink#"),
 
         React.createElement(Button, {
           style: {
