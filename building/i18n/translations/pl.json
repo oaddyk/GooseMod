@@ -51,7 +51,7 @@
         "search_results_hint": {
             "other_category": {
                 "plugins": "Nie znaleziono żadnych wyników, czy miałeś na myśli pluginy?",
-                "themes": "Nie znaleziono żadnych wyników, czy miałeś na myśli themy (wyglądy)?"
+                "themes": "Nie znaleziono żadnych wyników, czy miałeś na myśli motywy?"
             },
             "none": "Nie znaleziono wyników"
         }
@@ -77,7 +77,8 @@
             "store": "Sklep GooseMod"
         },
         "community": "Społeczność",
-        "install": "Zainstaluj"
+        "install": "Zainstaluj",
+        "openLink": "Otwórz Link"
     },
     "settings": {
         "items": {
@@ -165,6 +166,10 @@
             "collapsible_home_category": {
                 "title": "Zmniejszana Kategoria Główna",
                 "note": "Pozwalaj głównej kategorii na bycie zmniejszanej za pomocą ikonki"
+            },
+            "new_module_notifications": {
+                "title": "Powiadomienia o Nowych Pluginach",
+                "note": "Pokazuje powiadomienie za każdym razem, gdy nowy plugin zostanie dodany do sklepu"
             }
         }
     },
@@ -265,6 +270,18 @@
                 }
             },
             "confirm": "Dołącz do Discorda GooseMod"
+        }
+    },
+    "dialogs": {
+        "refresh": {
+            "title": "Wymagany Restart",
+            "note": "To ustawienie **wymaga ponownego uruchomienia discorda, aby zaczęło działać**. Przed ponownym uruchomieniem **możesz doświadczyć dziwnego zachowania klienta**",
+            "button": "Zrestartuj"
+        },
+        "reset_goosemod": {
+            "button": "Wyzeruj",
+            "title": "Wyzeruj GooseMod'a",
+            "note": "Potwierdzenie spowoduje całkowite wyzerowanie danych GooseMod'a. Zostaną usunięte wszystkie pluginy oraz ustawienia. Tak jakbyś zainstalował po raz pierwszy raz GooseMod'a. Jest to nieodwracalne."
         }
     }
 }

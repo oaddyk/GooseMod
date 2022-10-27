@@ -271,5 +271,17 @@
         },
         "install": "安裝",
         "openLink": "開啟連結"
+    },
+    "dialogs": {
+        "refresh": {
+            "title": "必須刷新",
+            "note": "此設定**必須刷新後才會有效**。刷新前可能會遇到一些**奇怪的行為**。",
+            "button": "刷新"
+        },
+        "reset_goosemod": {
+            "title": "重置 Goosemod",
+            "button": "重置",
+            "note": "確認將完全重置 GooseMod，刪除所有首選項和模組；就像您第一次安裝 GooseMod 一樣。這是不可逆的。"
+        }
     }
 }

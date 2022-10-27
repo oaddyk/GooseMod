@@ -4,7 +4,8 @@
             "themes": "Teme",
             "store": "Magazin",
             "modules": "Module",
-            "plugins": "Plugin-uri"
+            "plugins": "Plugin-uri",
+            "developers": "Dezvoltatori"
         },
         "goosemod": {
             "modules": "Module GooseMod",
@@ -17,7 +18,8 @@
         "settings": "Setări",
         "community": "Comunitate",
         "changelog": "Jurnal de modificări",
-        "install": "Instalați"
+        "install": "Instalați",
+        "openLink": "Deschide Link"
     },
     "store": {
         "options": {
@@ -43,12 +45,13 @@
             }
         },
         "categories": {
-            "recently_updated": "Actualizate recent",
+            "recently_updated": "Actualizat Recent",
             "upcoming": "Urmează",
             "all": {
                 "plugins": "Toate plugin-urile",
                 "themes": "Toate temele"
-            }
+            },
+            "top_starred": "Top Stelate"
         },
         "search_results_hint": {
             "other_category": {
@@ -59,7 +62,8 @@
         },
         "pgp": {
             "verified": "Verificat PGP",
-            "unknown": "Fără PGP"
+            "unknown": "Fără PGP",
+            "untrusted": "PGP de neîncredere"
         }
     },
     "settings": {
@@ -72,7 +76,8 @@
                 "backup": "Backup",
                 "appearance": "Aspect",
                 "utilities": "Utilităţi",
-                "experimental": "Experimentale"
+                "experimental": "Experimentale",
+                "tweaks": "Ajustări"
             },
             "auto_update": {
                 "title": "Actualizare automată"
@@ -86,6 +91,29 @@
             },
             "purge_caches": {
                 "title": "Ștergeți cache-urile"
+            },
+            "subtexts": {
+                "experimental_warning": "Setările experimentale sunt foarte posibil incomplete și instabile, ceea ce poate rezulta într-o experiență redusă",
+                "tweaks_description": "Schimbări minore cum ar fi schimbări ale UI-ului pentru a face GooseMod pe placul tău"
+            },
+            "main_separators": {
+                "title": "Separatori Primari",
+                "note": "Afișează separatori între setările primare GooseMod"
+            },
+            "copy_debug_info": {
+                "title": "Copiază Informații Debug",
+                "button": "Copiază"
+            },
+            "reset_goosemod": {
+                "button": "Resetează",
+                "title": "Resetează GooseMod",
+                "note": "Resetează GooseMod complet: șterge toate preferințe și modulele; ca instalarea inițială"
+            },
+            "force_theme_settings": {
+                "title": "Forțează Setările Temei"
+            },
+            "placeholder_image": {
+                "note": "Folosește o imagine înlocuitoare în Magazin pentru modulele fără imagini"
             }
         }
     },
@@ -95,5 +123,39 @@
                 "subtext": "Format nevalid"
             }
         }
+    },
+    "modals": {
+        "external_repo_security": {
+            "main": "Repositurile externe pot fi un risc de securitate deoarece nu sunt controlate de către dezvoltării GooseMod. Noi nu suntem responsabili de pericolele cauzate de către repositurile externe adăugate de utilizatori.\n\nDacă nu ai încredere în deținătorul acestui repo nu îl folosi deoarece îți poate compromite Discord-ul.\n\nConfirmă adăugarea acestui repo apăsând OK."
+        }
+    },
+    "ootb": {
+        "community": {
+            "items": {
+                "news": {
+                    "title": "Știri"
+                }
+            }
+        },
+        "settings": {
+            "items": {
+                "tweaks": {
+                    "title": "Ajustări",
+                    "subtext": "Ajustează GooseMod cum vrei tu"
+                },
+                "utilities": {
+                    "title": "Utilităţi"
+                }
+            }
+        },
+        "start": {
+            "confirm": "Află mai multe"
+        }
+    },
+    "badges": {
+        "developer": "Dezvoltator GooseMod",
+        "guild": "Discord-ul Official GooseMod",
+        "sponsor": "Sponsor GooseMod",
+        "translator": "Translator GooseMod"
     }
 }
